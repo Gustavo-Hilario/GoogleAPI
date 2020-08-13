@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8' />
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0" >
+
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.21/datatables.min.css"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="./Datatables/datatables.min.css">
+        <link rel="stylesheet" href="./Datatables/DataTables-1.10.21/css/dataTables.bootstrap4.min.css">
+        <link rel="stylesheet" href="./style.css">
+
+        <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.21/datatables.min.js"></script>
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
+    </head>
+    <body>
+        <p>
+            Press button to Authorize and Download your Contacts in JSON
+            <br />
+            <br />
+            <button onclick="authClick(event)">Load Contacts</button>
+            
+            <button id="loadJson">click to Download Json</button>
+
+
+        </p>
+        <div id="divauthresult"></div>
+        <div id="divtableresult"></div>
+        <script src="https://apis.google.com/js/client.js"></script>
+        <script src="./Datatables/datatables.min.js"></script>
+        <script type="text/javascript" src="./main.js"></script>
+    </body>
+        <!-- <script src="https://apis.google.com/js/client.js"></script> -->
+
+</html>
