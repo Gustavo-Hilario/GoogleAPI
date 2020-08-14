@@ -15,3 +15,4 @@ https://console.developers.google.com/apis
  If you want to run the application on a local server you must enter the url of said server example: "localhost", "127.0.0.1", "localhost: port" atc.
  
  
+ if the error is displayed: idpiframe_initialization_failed, clear the history of the browser that is being used. This is because the browser has a bad or obsolete cookie from the application.
